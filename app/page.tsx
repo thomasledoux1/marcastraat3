@@ -156,7 +156,7 @@ export default function Home() {
                 <h1
                   className={`${cormorant.className} text-4xl leading-[0.92] font-bold tracking-tight md:text-6xl`}
                 >
-                  Te koop: instapklare gezinswoning in Wondelgem
+                  Te koop: instapklare energiezuinige gezinswoning in Wondelgem
                 </h1>
                 <h2 className="text-2xl font-semibold">
                   Instelprijs: 439.000€
@@ -169,7 +169,7 @@ export default function Home() {
                 <div className="max-w-2xl text-base leading-7 text-[#2e2f2b] md:text-lg">
                   <b>Troeven van de woning:</b>
                   <ul className="mt-1 list-disc list-inside">
-                    <li>goede EPC</li>
+                    <li>goede EPC (105)</li>
                     <li>14 zonnepanelen met thuisbatterij</li>
                     <li>3 slaapkamers met zeer ruime master bedroom</li>
                     <li>aparte bureau</li>
