@@ -159,7 +159,7 @@ export default function Home() {
                   Te koop: instapklare energiezuinige gezinswoning in Wondelgem
                 </h1>
                 <h2 className="text-2xl font-semibold">
-                  Instelprijs: 439.000€
+                  Instelprijs: 445.000€
                 </h2>
                 <p className="max-w-2xl text-base leading-7 text-[#2e2f2b] md:text-lg">
                   Wonen in een rustige, gezellige buurt en tegelijk dicht bij de
