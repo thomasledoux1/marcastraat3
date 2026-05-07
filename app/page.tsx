@@ -48,7 +48,7 @@ export default function Home() {
     {
       title: 'Slaapkamers',
       description:
-        'Drie volwaardige slaapkamers zorgen voor veel ruimte voor een gezin: een zeer ruime master bedroom en twee kinderkamers met een aangename lichtinval.',
+        'Drie volwaardige slaapkamers zorgen voor veel ruimte voor een gezin: een zeer ruime master bedroom en twee grote kinderkamers met een aangename lichtinval.',
       highlights: ['Zeer ruime master bedroom', '2 kinderkamers'],
       mainImage: masterBedroomImage,
       galleryImages: [
@@ -69,7 +69,7 @@ export default function Home() {
     {
       title: 'Badkamer',
       description:
-        'De badkamer is netjes afgewerkt en gecombineerd met 2 toiletten in de woning, wat extra comfort geeft in het dagelijkse gebruik.',
+        'De badkamer is netjes afgewerkt en uitgerust met een dubbele lavabo en een bad.',
       highlights: ['Dubbele lavabo', 'Bad aanwezig'],
       mainImage: badkamerImage,
       galleryImages: [badkamerImage, badkamer2Image],
@@ -97,7 +97,7 @@ export default function Home() {
     {
       title: 'Tuin',
       description:
-        'De tuin biedt een rustige buitenruimte om te ontspannen, eten of spelen, met een mooi zicht op de achterzijde van de woning.',
+        'De tuin biedt een rustige buitenruimte om te ontspannen, eten of spelen, met een mooi zicht op de boom achteraan de tuin',
       highlights: ['Grote zilverberk', 'Privacy'],
       mainImage: tuinImage,
       galleryImages: [tuinImage, tuin2Image, backsideImage],
@@ -105,7 +105,7 @@ export default function Home() {
     {
       title: 'Garage',
       description:
-        'De inpandige garage met automatische garagepoort zorgt voor comfortabel parkeren en extra bergruimte.',
+        'De inpandige garage met automatische garagepoort zorgt voor comfortabel parkeren van fietsen en extra bergruimte.',
       highlights: ['Inpandige garage', 'Automatische garagepoort'],
       mainImage: garageImage,
       galleryImages: [garageImage],
@@ -152,13 +152,14 @@ export default function Home() {
                   <ul className="mt-1 list-disc list-inside">
                     <li>goede EPC</li>
                     <li>14 zonnepanelen met thuisbatterij</li>
-                    <li>3 slaapkamers</li>
+                    <li>3 slaapkamers met zeer ruime master bedroom</li>
                     <li>aparte bureau</li>
                     <li>2 toiletten</li>
                     <li>open keuken met kookeiland & speelhoek</li>
-                    <li>ruime living</li>
+                    <li>living met aansluiting met keuken</li>
                     <li>tuin</li>
                     <li>inpandige garage</li>
+                    <li>oprit voor auto</li>
                   </ul>
                 </div>
                 <p className="text-sm md:text-base">
