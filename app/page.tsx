@@ -53,6 +53,35 @@ export const metadata: Metadata = {
 export default function Home() {
   const composedSections = [
     {
+      title: 'Living',
+      description:
+        'De living is gelegen aan de voorkant van de woning (met aparte gang) en heeft een aansluiting met de keuken.',
+      highlights: ['Aansluiting met keuken en tuin'],
+      mainImage: livingImage,
+      galleryImages: [livingImage, living1Image],
+    },
+
+    {
+      title: 'Keuken',
+      description:
+        'De open keuken met kookeiland vormt het hart van de woning en sluit mooi aan op de leefruimte, met extra plek voor een speelhoek.',
+      highlights: [
+        'Open keuken met kookeiland',
+        'Speelhoek',
+        'Aansluiting met living',
+      ],
+      mainImage: keukenImage,
+      galleryImages: [
+        keukenImage,
+        keuken1Image,
+        keuken2Image,
+        keuken3Image,
+        speelhoekImage,
+        livingImage,
+        living1Image,
+      ],
+    },
+    {
       title: 'Slaapkamers',
       description:
         'Drie volwaardige slaapkamers zorgen voor veel ruimte voor een gezin: een zeer ruime master bedroom en twee grote kinderkamers met een aangename lichtinval.',
@@ -80,26 +109,6 @@ export default function Home() {
       highlights: ['Dubbele lavabo', 'Bad aanwezig'],
       mainImage: badkamerImage,
       galleryImages: [badkamerImage, badkamer2Image],
-    },
-    {
-      title: 'Keuken',
-      description:
-        'De open keuken met kookeiland vormt het hart van de woning en sluit mooi aan op de leefruimte, met extra plek voor een speelhoek.',
-      highlights: [
-        'Open keuken met kookeiland',
-        'Speelhoek',
-        'Aansluiting met living',
-      ],
-      mainImage: keukenImage,
-      galleryImages: [
-        keukenImage,
-        keuken1Image,
-        keuken2Image,
-        keuken3Image,
-        speelhoekImage,
-        livingImage,
-        living1Image,
-      ],
     },
     {
       title: 'Tuin',
