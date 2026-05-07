@@ -191,6 +191,16 @@ export default function Home() {
                     Marcastraat 3, 9032 Wondelgem (bekijk op Google Maps)
                   </a>
                 </p>
+                <p className="text-sm md:text-base">
+                  <a
+                    href="https://www.immoweb.be/nl/zoekertje/huis/te-koop/gent/9032/21551287"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-[#0f4c5c] underline decoration-2 underline-offset-4"
+                  >
+                    Immoweb link
+                  </a>
+                </p>
                 <p className="font-medium text-[#0f4c5c] md:text-lg">
                   Bezichtiging? Stuur een mail naar:{' '}
                   <a
