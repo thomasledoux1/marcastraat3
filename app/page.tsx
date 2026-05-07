@@ -20,6 +20,7 @@ import living1Image from '@/public/livingroom1.jpg';
 import speelhoekImage from '@/public/playcorner.jpg';
 import voorgevelImage from '@/public/voorgevel.jpg';
 import PhotoSectionsLightbox from './photo-sections-lightbox';
+import { Metadata } from 'next';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -31,13 +32,19 @@ const dmSans = DM_Sans({
   weight: ['400', '500', '700'],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Marcastraat 3 - Te koop: instapklare gezinswoning in Wondelgem',
   openGraph: {
     title: 'Marcastraat 3 - Te koop: instapklare gezinswoning in Wondelgem',
     description:
       'Wonen in een rustige, gezellige buurt en tegelijk dicht bij de stad: deze woning ligt op slechts 5 km van het centrum van Gent.',
-    images: [voorgevelImage],
+    images: [{ url: voorgevelImage.src }],
+  },
+  twitter: {
+    title: 'Marcastraat 3 - Te koop: instapklare gezinswoning in Wondelgem',
+    description:
+      'Wonen in een rustige, gezellige buurt en tegelijk dicht bij de stad: deze woning ligt op slechts 5 km van het centrum van Gent.',
+    images: [{ url: voorgevelImage.src }],
   },
   description:
     'Wonen in een rustige, gezellige buurt en tegelijk dicht bij de stad: deze woning ligt op slechts 5 km van het centrum van Gent.',
@@ -142,6 +149,9 @@ export default function Home() {
                 >
                   Te koop: instapklare gezinswoning in Wondelgem
                 </h1>
+                <h2 className="text-2xl font-semibold">
+                  Instelprijs: 439.000€
+                </h2>
                 <p className="max-w-2xl text-base leading-7 text-[#2e2f2b] md:text-lg">
                   Wonen in een rustige, gezellige buurt en tegelijk dicht bij de
                   stad: deze woning ligt op slechts 5 km van het centrum van
